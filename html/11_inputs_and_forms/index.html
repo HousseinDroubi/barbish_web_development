@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs and Forms</title>
+    <link rel="icon" href="assets/html_icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <legend>Login data</legend>
+        <label for="first_name">First name: </label>
+        <input
+          required
+          type="text"
+          id="first_name"
+          placeholder="John"
+          autocomplete="on"
+          autofocus
+        />
+        <br /><br />
+        <label for="last_name">Last name: </label>
+        <input required type="text" id="last_name" placeholder="Doe" />
+        <br /><br />
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="some password" />
+        <br /><br />
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="example@email.com" />
+        <br /><br />
+        <label for="phone_number">Phone number: </label>
+        <input type="tel" id="phone_number" placeholder="+961xxxxxxxx" />
+      </fieldset>
+      <br /><br />
+      <label for="is_graudate">Are you graduate: </label>
+      <input type="checkbox" id="is_graudate" />
+      <br /><br />
+      <label for="country_select">Select your country: </label>
+      <select id="country_select">
+        <optgroup label="Asia">
+          <option value="Lebanon">LB</option>
+          <option value="Palestine">PAL</option>
+          <option value="Syria">SYR</option>
+        </optgroup>
+        <optgroup label="Africa">
+          <option value="Egypt">EGY</option>
+          <option value="Lybia">LYB</option>
+        </optgroup>
+      </select>
+      <br /><br />
+      <label for="ticket_id">Choose Ticket Id:</label>
+      <input
+        type="number"
+        id="ticket_id"
+        min="1000"
+        max="2000"
+        step="10"
+        value="1500"
+      />
+
+      <br /><br />
+      <label for="country_list">Choose your country: </label>
+      <input type="text" id="country_list" list="region_list" />
+      <datalist id="region_list">
+        <option value="lebanon">LB</option>
+        <option value="syria">SYR</option>
+        <option value="palestine">PAL</option>
+        <option value="egypt">EGY</option>
+      </datalist>
+      <br /><br />
+      <h3>Choose your major</h3>
+      <input
+        type="radio"
+        id="radio_computer_science"
+        value="computer_science"
+        name="major"
+        checked
+      />
+      <label for="radio_computer_science">Computer Science</label>
+      <br /><br />
+      <input
+        type="radio"
+        id="radio_computer_engineering"
+        value="computer_engineering"
+        name="major"
+      />
+      <label for="radio_computer_engineering">Computer Engineering</label>
+      <br /><br />
+      <input
+        type="radio"
+        id="radio_communication_engineering"
+        value="communication_engineering"
+        name="major"
+        checked
+      />
+      <label for="radio_communication_engineering"
+        >Communication Engineering</label
+      >
+      <br /><br />
+      <h3>Choose your hobbies:</h3>
+      <input
+        type="checkbox"
+        id="checkbox_reading"
+        name="hobbies"
+        value="reading"
+      />
+      <label for="checkbox_reading">Reading</label>
+      <br /><br />
+      <input
+        type="checkbox"
+        id="checkbox_coding"
+        name="hobbies"
+        value="coding"
+      />
+      <label for="checkbox_coding">Coding</label>
+      <br /><br />
+      <input
+        type="checkbox"
+        id="checkbox_learning"
+        name="hobbies"
+        value="learning"
+      />
+      <label for="checkbox_learning">Learning</label>
+      <br /><br />
+      <h3>Enter your cover letter:</h3>
+      <textarea cols="30" rows="10"></textarea>
+      <br /><br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
