@@ -1,0 +1,22 @@
+/* Section */
+section > p:first-child {
+  color: red;
+}
+
+section > p:last-child {
+  color: blue;
+}
+
+section > p:nth-child(2) {
+  color: purple;
+}
+
+/* Article */
+article > button:hover {
+  background-color: red;
+  color: white;
+}
+
+article > input:focus {
+  color: blue;
+}

@@ -1,0 +1,36 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color name */
+section > p:first-child {
+  color: red;
+}
+
+/* Color hexadecimal */
+section > p:nth-child(3) {
+  color: #ff0000; /* or #f00 */
+}
+
+/* Color rgb */
+section > p:nth-child(5) {
+  color: rgb(255, 0, 0);
+}
+
+/* Color rgba */
+section > p:nth-child(7) {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+/* Color hsl */
+section > p:nth-child(9) {
+  color: hsl(118, 100%, 50%);
+}
+
+/* Color hsl */
+section > p:nth-child(11) {
+  color: hwb(0 0% 28%);
+}
