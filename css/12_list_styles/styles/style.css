@@ -1,0 +1,40 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+.ul-1 {
+  list-style-type: square;
+}
+.ul-2 {
+  list-style-type: circle;
+}
+
+.ul-3 {
+  list-style-type: disc;
+}
+
+/* ------------------------ */
+
+.ol-1 {
+  list-style-type: lower-greek;
+}
+.ol-2 {
+  list-style-type: upper-alpha;
+}
+.ol-3 {
+  list-style-type: none;
+  text-align: left;
+}
+.ol-4 {
+  list-style-type: none;
+  text-align: left;
+  list-style-image: url("../done.svg");
+}

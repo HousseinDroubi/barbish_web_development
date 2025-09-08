@@ -1,0 +1,57 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 3px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* percentage section */
+
+.percentage-div-1 {
+  height: 40px; /* Not relative */
+  width: 70%; /* Relative */
+  background-color: red;
+}
+
+.percentage-div-2 {
+  height: 60px;
+  width: 700px;
+  background-color: purple;
+}
+
+.percentage-div-2 > div {
+  height: 40px;
+  width: 50%;
+  background-color: green;
+}
+
+/* viewport section */
+.viewport-div-1 {
+  height: 40px;
+  width: 70vw;
+  background-color: red;
+}
+
+.viewport-div-2 {
+  height: 40vh;
+  width: 200px;
+  background-color: green;
+}
+
+/* rem section */
+
+.rem-section > p:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+}
+
+.rem-section > p:nth-child(3) {
+  color: blue;
+  font-size: 2rem;
+}
+.rem-section > p:last-child {
+  color: green;
+  font-size: 3rem;
+}

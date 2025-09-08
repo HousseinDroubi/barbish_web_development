@@ -1,0 +1,17 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  color: rgb(0, 132, 255);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: red;
+}

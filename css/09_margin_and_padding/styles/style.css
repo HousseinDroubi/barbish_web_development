@@ -1,0 +1,24 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 8px;
+}
+
+div {
+  width: 160px;
+  height: 160px;
+  border: 1px solid red;
+}
+
+.box-1 {
+  margin-left: 20px;
+}
+
+.box-2 {
+  padding-left: 20px;
+}
