@@ -1,0 +1,105 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+div {
+  width: 35px;
+  height: 35px;
+  border: 0.5px solid red;
+}
+
+section {
+  border: 2px solid blue;
+  display: flex;
+  margin-top: 10px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.section-2 {
+  justify-content: start;
+}
+
+.section-3 {
+  justify-content: center;
+}
+
+.section-4 {
+  justify-content: end;
+}
+
+.section-5 {
+  justify-content: space-between;
+}
+
+.section-6 {
+  justify-content: space-evenly;
+}
+
+.section-7 {
+  justify-content: space-around;
+}
+
+.section-8 {
+  align-items: start;
+}
+
+.section-9 {
+  align-items: center;
+}
+
+.section-10 {
+  align-items: end;
+}
+
+.section-11 {
+  flex-wrap: wrap;
+}
+
+.section-12 {
+  flex-wrap: wrap-reverse;
+}
+
+.section-13 {
+  flex-wrap: wrap;
+  align-content: start;
+}
+
+.section-14 {
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.section-15 {
+  flex-wrap: wrap;
+  align-content: end;
+}
+
+.section-16 {
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.section-17 {
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.section-18 {
+  flex-wrap: wrap;
+  align-content: space-around;
+}

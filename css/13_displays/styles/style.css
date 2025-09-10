@@ -1,0 +1,31 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body > div {
+  width: 100px;
+  height: 100px;
+}
+
+body > div:first-child {
+  border: 1px solid red;
+  display: none;
+}
+
+body > div:nth-child(2) {
+  border: 1px solid blue;
+  display: block;
+}
+
+body > div:nth-child(3) {
+  border: 1px solid purple;
+  display: inline;
+}
+
+body > div:nth-child(4) {
+  border: 1px solid green;
+  display: block;
+}
