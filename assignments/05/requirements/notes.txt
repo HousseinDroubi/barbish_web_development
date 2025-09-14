@@ -1,0 +1,7 @@
+Assignment #5:
+
+- You are asked to create 3 pages : page_1.html, page_2.html and page_3.html
+- The 3 files have h1 tag colored blue and have the same css icon with different titles
+- page_1 style in inline
+- page_2 style in internal
+- page_3 style is external

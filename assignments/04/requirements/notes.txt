@@ -1,0 +1,10 @@
+Assignment #4:
+
+You are required to implement your resume that includes:
+- Name
+- Address
+- Personal info
+- Experience 
+- Links for social media (You can use example.com domain)
+- Contact section (first name, last name, email, tel and select)
+Use semantic tags and name your repo assignment-4
