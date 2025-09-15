@@ -103,3 +103,56 @@ section {
   flex-wrap: wrap;
   align-content: space-around;
 }
+
+.section-19 {
+  align-items: center;
+}
+
+.section-19 > div:first-child,
+.section-19 > div:nth-child(2),
+.section-19 > div:nth-child(3) {
+  align-self: end;
+}
+
+.section-19 > div:nth-child(4) {
+  align-self: stretch;
+  height: auto;
+}
+
+.section-19 > div:last-child {
+  align-self: start;
+}
+
+.section-20 {
+  justify-content: center;
+  align-items: center;
+}
+
+.section-20 > div {
+  flex-basis: 300px;
+}
+
+.section-20 > div:first-child {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: green;
+}
+
+.section-20 > div:last-child {
+  flex-grow: 2;
+  flex-shrink: 2;
+  background-color: red;
+}
+
+.section-21 {
+  justify-content: center;
+  align-items: center;
+}
+
+.section-21 > div:nth-child(2) {
+  order: 1;
+}
+
+.section-22 {
+  flex-direction: column;
+}
