@@ -101,3 +101,63 @@ section > div {
   grid-auto-flow: column;
   grid-auto-columns: 50px;
 }
+
+.section-6 {
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.section-7 {
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  /* Or */
+  /* gap: 10px; */
+}
+
+.section-8 {
+  grid-template-areas:
+    "box_1 box_1 box_1 box_1"
+    "box_1 box_1 box_1 box_1"
+    "box_2 box_3 box_3 box_3"
+    "box_2 box_3 box_3 box_3";
+}
+
+.section-8 > div:first-child {
+  grid-area: box_1;
+}
+
+.section-8 > div:nth-child(2) {
+  grid-area: box_2;
+}
+
+.section-8 > div:last-child {
+  grid-area: box_3;
+}
+
+.section-9 {
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px;
+  justify-items: center;
+  align-items: center;
+}
+
+.section-10 {
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px;
+  justify-items: center;
+  align-items: center;
+}
+
+.section-10 > div:first-child {
+  justify-self: end;
+  align-self: end;
+}
+
+.section-11 {
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px;
+  justify-content: space-between;
+  align-content: space-between;
+}
