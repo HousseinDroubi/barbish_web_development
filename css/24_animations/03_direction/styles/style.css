@@ -25,14 +25,22 @@ div {
   font-size: var(--FONT-MEDIUM);
   color: var(--FONT-COLOR-WHITE);
   margin: 100px;
-  animation: div_animation 1s linear 5;
+  animation: div_animation 1s linear infinite;
 }
 
 .div-1 {
-  animation-direction: alternate;
+  animation-direction: normal;
 }
 
 .div-2 {
+  animation-direction: reverse;
+}
+
+.div-3 {
+  animation-direction: alternate;
+}
+
+.div-4 {
   animation-direction: alternate-reverse;
 }
 
