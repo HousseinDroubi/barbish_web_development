@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--BACKGROUND-COLOR);
+  border: 2px solid var(--BORDER-COLOR);
+  font-size: var(--FONT-MEDIUM);
+  color: var(--FONT-COLOR-WHITE);
+  margin: 100px;
+  transition: all 100ms ease-in-out;
+}
+
+div:hover {
+  background-color: white;
+  transform: rotate(45deg) scale(200%);
+  color: black;
+  border-color: black;
+}
+
+/* Root */
+:root {
+  --BACKGROUND-COLOR: rgb(224, 107, 107);
+  --BORDER-COLOR: rgb(134, 10, 10);
+  --FONT-MEDIUM: 40px;
+  --FONT-COLOR-WHITE: rgb(232, 232, 232);
+}

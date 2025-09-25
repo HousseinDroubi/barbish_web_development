@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  perspective: 300px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--BACKGROUND-COLOR);
+  border: 2px solid var(--BORDER-COLOR);
+  font-size: var(--FONT-MEDIUM);
+  color: var(--FONT-COLOR-WHITE);
+  margin: 100px;
+}
+
+.div-1 {
+  transform: translateX(60px);
+}
+
+.div-2 {
+  transform: translateY(-20px);
+}
+
+.div-3 {
+  transform: translate(40px, 40px);
+}
+
+.div-4 {
+  transform: rotateX(30deg);
+}
+
+.div-5 {
+  transform: rotateY(30deg);
+}
+
+.div-6 {
+  transform: rotate(30deg);
+}
+
+.div-7 {
+  transform: scaleX(200%);
+}
+
+.div-8 {
+  transform: scaleY(200%);
+}
+
+.div-9 {
+  transform: scale(150%);
+}
+
+/* Root */
+:root {
+  --BACKGROUND-COLOR: rgb(224, 107, 107);
+  --BORDER-COLOR: rgb(134, 10, 10);
+  --FONT-MEDIUM: 40px;
+  --FONT-COLOR-WHITE: rgb(232, 232, 232);
+}
