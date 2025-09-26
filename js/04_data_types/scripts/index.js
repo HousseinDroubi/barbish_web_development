@@ -12,10 +12,8 @@ console.log(false);
 // undefined
 console.log(undefined);
 
-// null
-console.log(null);
-
 // object
+console.log(null);
 console.log([10, 20, 30]);
 console.log({
   name: "Houssein",
