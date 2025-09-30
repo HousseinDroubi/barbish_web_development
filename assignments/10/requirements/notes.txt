@@ -1,0 +1,10 @@
+1- Create an array called sales that contains the following numbers: (representing sales for each hour):
+120, 85, 200, 150, 90, 300, 400, 50, 30
+
+2- Using ONE SINGLE LOOP:
+    a- Get the total sales
+    b- The highest sale of all sales
+    c- The number of sales below 100.
+    D- The average of all sales.
+
+3- Check run image for details
