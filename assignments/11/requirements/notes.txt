@@ -1,0 +1,41 @@
+In this question, you are asked to implement the following function in JS programming language:
+
+1- a void function called greetStudent. Example:
+    greetStudent() -> Output: Hello, student! Welcome to the class.
+
+2- a void function called greetStudent that takes "name" as params. Example:
+    greetStudent("John") -> Output: Hello, John!
+
+3- a void function called showGrade that takes "name" and "grade" as params.
+    showGrade("Alice",A) -> Output: Alice got grade: A
+    showGrade() -> Output: Unkown got grade: Not available
+
+4- a void function called checkScore that takes "score" as params and checks if score is between 0 and 100 . Example:
+    checkScore(75) -> Output: score is valid
+    showGrade() -> No output, the function will return early.
+
+5- a function called getFullName that takes "first_name" and "last_name" as params and returns "first_name last_name". Example:
+    getFullName("John","Doe"); -> returns "John Doe" as string
+
+6- a function called getHighestNumber that takes many many numbers as number data type and returns the highest number between them. Example:
+    getHighestNumber(10,20,30) -> returns 30
+    getHighestNumber(10) -> returns 10
+    getHighestNumber() -> returns undefined
+    getHighestNumber(16,14,19,22,39) -> returns 39
+
+7- an anonymous function inside a variable called sayHi that takes "name" as params. Example:
+    sayHi("John") -> Output: Hi John!
+
+8- an arrow function inside a variable called sayHi that takes "name" as params. Example:
+    sayHi("John") -> Output: Hi John!
+
+9- A higher order function called multiplier that takes "factor" as params, and returns an arrow function (anonymous function) that also takes "number" as params returns the "factor" * "number". Example:
+    const double = multiplier(2);
+    double(4); -> This has value of 8
+    const triple = multiplier(3);
+    triple(5); -> This has value of 15
+
+10- A function called square that takes "n" as params and returns "n" * "n"
+    A higher order function called applyOperation that takes "arr" (array) and "operation" (callback function that is square function in this case), and apply the callback function "operation" for "arr". Example:
+    const numbers = [1,2,3,4];
+    const result = applyOperation(numbers,sqaure); -> result has value of: [1,4,9,16]
