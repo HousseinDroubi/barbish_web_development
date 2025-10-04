@@ -1,0 +1,11 @@
+1- Conditions 
+	- Username must be between 3 and 10
+	- Password must be between 6 and 20
+	
+2- Warning text inside box:
+	- Has color red when conditions failed
+
+3- Username must be saved in cookies for 7 days, so when user login for the next 7 days, sign_in page should not be appear.
+
+4- When conditions met, the page must navigate to all_todos page.
+

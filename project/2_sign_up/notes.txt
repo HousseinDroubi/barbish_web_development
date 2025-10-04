@@ -1,0 +1,14 @@
+1- Conditions:
+	- Username must be between 3 and 10
+	- Password must be between 6 and 20
+	- re-password must be between 6 and 20
+	- Password and re-password must be the same.
+
+2- Warning text inside box:
+	- Has color red when conditions failed
+	- Has color green when conditions met
+	
+3- When conditions are met:
+	-The warning text should appear a message saying "Done, please sign in"
+	-The inputs are cleared
+

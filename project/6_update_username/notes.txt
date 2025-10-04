@@ -1,0 +1,10 @@
+1- When the page is opened, the username inside cookies will be appeared into the input
+
+2- Conditions:
+	- username text must be between 3 and 10
+
+3- Warning text inside box:
+	- Has color red when conditions failed
+	- Has color green when conditions met
+	
+4- When conditions met, the warning text must showing a text in green saying "Done" and the new username will be re-saved for new 7 days inside cookies.

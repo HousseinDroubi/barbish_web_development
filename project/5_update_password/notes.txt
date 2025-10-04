@@ -1,0 +1,11 @@
+1- Conditions:
+	1- old password text must be between 6 and 20
+	2- new password text must be between 6 and 20
+	3- re-password text must be between 6 and 20
+	4- password must equal re-password
+
+2- Warning text inside box:
+	- Has color red when conditions failed
+	- Has color green when conditions met
+	
+3- When conditions met, the warning text must showing a text in green saying "Done"

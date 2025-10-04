@@ -1,0 +1,7 @@
+1- Conditions:
+	- todo text must be between 5 and 100
+	- When todo added, it will be added to local storage
+
+2- Warning text inside box:
+	- Has color red when conditions failed
+	- Has color green when conditions met
