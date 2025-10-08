@@ -1,0 +1,4 @@
+- The boxes are added dynamically from js.
+- The "X" button will remove the box.
+- If 10 seconds passed and "X" button has not been pressed, then the box will be automatically removed.
+- The "Add Box" button will add boxes as much as you want.
