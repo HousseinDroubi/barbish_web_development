@@ -1,0 +1,11 @@
+url: https://dummyjson.com/users
+
+colors: 
+	- body background color: #f4f4f4
+	- body color (text inside body): #333
+	- header: #264653
+	- header button color: #2a9d8f
+	- header button on hover: #21867a
+	- image background: #ddd
+	- user name color: #264653
+	- error text color: red
